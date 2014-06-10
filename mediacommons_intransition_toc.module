@@ -5,3 +5,8 @@
  */
 
 include_once 'mediacommons_intransition_toc.features.inc';
+
+
+function mediacommons_intransition_toc_init() {
+ 	drupal_add_css(drupal_get_path('module', 'mediacommons_intransition_toc') . '/lulu.css');
+}

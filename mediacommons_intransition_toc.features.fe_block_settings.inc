@@ -27,6 +27,12 @@ function mediacommons_intransition_toc_default_fe_block_settings() {
         'theme' => 'babyzen',
         'weight' => 0,
       ),
+      'intransition' => array(
+        'region' => 'homepage_top',
+        'status' => 1,
+        'theme' => 'intransition',
+        'weight' => 0,
+      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
